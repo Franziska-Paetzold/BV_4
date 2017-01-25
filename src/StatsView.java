@@ -14,7 +14,7 @@ import javax.swing.border.TitledBorder;
 public class StatsView extends JPanel {
 
 	private static final long serialVersionUID = 1L;
-	private static final String[] names = { "Min:", "Max:", "Average:", "Median:", "Variance:", "Entropy:" }; // TODO: enter proper names
+	private static final String[] names = { "Min:", "Max:", "Average:", "Median:", "Variance:", "Entropy:" }; 
 	private static final int rows = names.length;
 	private static final int border = 2;
 	private static final int columns = 2;
